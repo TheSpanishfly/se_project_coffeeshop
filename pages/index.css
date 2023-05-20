@@ -76,7 +76,7 @@
   max-width: 729px;
   display: block;
   flex-wrap: wrap;
-  margin: 80px 0 0 40;
+  margin: 80px 0 0 40px;
 }
 
 .header__title span-accent {
