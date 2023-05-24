@@ -45,6 +45,14 @@
   color: #2f80ed;
 }
 
+.header__logo {
+  width: 125px;
+  height: 142px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
 .header__description {
   font-family: "Noto Serif";
   font-size: 20px;
