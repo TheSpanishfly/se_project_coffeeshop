@@ -16,21 +16,13 @@
   z-index: 0;
 }
 
-.span-accent {
+.header__span-accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
-}
-
-.header__logo {
-  width: 125px;
-  height: 142px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
 }
 
 .header__title {
