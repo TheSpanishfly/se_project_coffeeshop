@@ -190,7 +190,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
 }
 
 .reservation__title {
@@ -259,4 +258,253 @@
   height: 20px;
   margin-right: 12px;
   margin-bottom: 0;
+}
+
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.menu__title {
+  min-width: 780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  align-self: center;
+  margin-top: 100px;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  align-self: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.menu__cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+.card {
+  width: 540px;
+}
+
+.card_container-1 {
+  order: 1;
+}
+
+.card_container-2 {
+  order: 2;
+}
+
+.card_container-3 {
+  align-self: flex-end;
+  order: 3;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 24px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__list-item {
+  font-family: "Noto serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  flex-basis: 300px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid;
+}
+
+.about {
+  height: 400px;
+  box-sizing: border-box;
+  min-height: 224px;
+  background-color: #0a2850;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  height: 110px;
+  z-index: 1;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.about__content {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  max-width: 660px;
+  max-height: 220px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 119px;
+  margin-right: 80px;
+}
+
+.about__paragraph {
+  margin: 20px 0;
+}
+
+.about__paragraph:nth-child(1) {
+  margin-top: 0;
+}
+
+.about__paragraph:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  order: -1;
+  position: absolute;
+  left: -129px;
+  top: -152px;
+  background-color: #2f80ed;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.footer__content {
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 108px;
+  padding-left: 80px;
+  padding-right: 100px;
+}
+
+.footer__logo {
+  height: 21px;
+  width: 116px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__social-heading {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-link {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+}
+
+.footer__copyright {
+  padding-top: 108px;
+  padding-bottom: 60px;
 }
