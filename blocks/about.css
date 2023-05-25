@@ -31,7 +31,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-
   max-width: 660px;
   max-height: 220px;
   flex-wrap: wrap;
@@ -65,7 +64,7 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-in-out 0s infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
 }
 
 @keyframes pulsate {
