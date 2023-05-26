@@ -16,7 +16,8 @@
 }
 
 .header__span-accent {
-  font-family: "Noto Serif";
+  display: block;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -31,26 +32,15 @@
   line-height: 72px;
   max-width: 729px;
   display: block;
-  flex-wrap: wrap;
   padding-top: 80px;
   padding-left: 80px;
 }
 
-.header__title span-accent {
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #2f80ed;
-}
-
 .header__description {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  position: relative;
   padding-left: 80px;
   padding-bottom: 28px;
 }
@@ -60,7 +50,7 @@
   top: 124px;
   right: 5px;
   height: 568px;
-  width: 636px;
+  width: 646px;
   z-index: -1;
 }
 
@@ -70,11 +60,12 @@
   margin-top: auto;
   position: relative;
   padding: 40px 50px 0;
+  align-items: center;
 }
 
 .header__paragraph {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
