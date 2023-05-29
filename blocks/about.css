@@ -1,11 +1,8 @@
 .about {
-  height: 400px;
   box-sizing: border-box;
-  min-height: 224px;
   background-color: #0a2850;
   color: #ffffff;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 80px;
   position: relative;
@@ -19,28 +16,31 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 251px;
-  height: 110px;
   z-index: 1;
   margin-top: 100px;
-  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 0;
 }
 
 .about__content {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", Times, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  max-height: 220px;
-  flex-wrap: wrap;
-  align-items: center;
   margin-top: 119px;
   margin-right: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.about__paragraph {
-  margin: 20px 0;
+.about__paragraph form__checkbox {
+  border-radius: 2px;
+  min-width: 20px;
+  min-height: 20px;
+  margin-right: 12px;
 }
 
 .about__paragraph:nth-child(1) {
