@@ -18,33 +18,3 @@
   line-height: 52px;
   margin: 100px 0 80px 0;
 }
-
-.reservation__form {
-  margin: 0 auto;
-}
-
-.reservation__form-input::placeholder {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 300px;
-}
-
-.reservation__form-button:hover {
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-.reservation__form-label--i-agree {
-  margin-bottom: 0px;
-}
-
-.reservation__form-checkbox-input {
-  min-width: 20px;
-  min-height: 20px;
-}
-
-.reservation__form {
-  max-width: 700%;
-}
