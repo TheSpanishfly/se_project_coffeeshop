@@ -111,69 +111,59 @@
 
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <fieldset class="reservation__form-fieldset">
-            <label for="surename" class="reservation__form-label">Name</label>
-            <input
-              type="text"
-              class="reservation__form-input"
-              id="surename"
-              name="surename"
-              placeholder="Name surename"
-            />
-          </fieldset>
-          <fieldset class="reservation__form-fieldset">
-            <label for="guest" class="reservation__form-label"
-              >Number of guests</label
-            >
-            <input
-              type="number"
-              min="1"
-              max="8"
-              class="reservation__form-input"
-              id="guest"
-              name="guest"
-              placeholder="1-8"
-            />
-          </fieldset>
-          <fieldset class="reservation__form-fieldset">
-            <label for="date-time" class="reservation__form-label"
-              >Date & Time</label
-            >
-            <input
-              type="datetime-local"
-              class="reservation__form-input"
-              id="date-time"
-              name="date-time"
-            />
-          </fieldset>
-          <fieldset class="reservation__form-fieldset">
-            <label for="email" class="reservation__form-label"
-              >Your email</label
-            >
-            <input
-              type="email"
-              class="reservation__form-input"
-              id="email"
-              name="email"
-              placeholder="email@mail.com"
-            />
-          </fieldset>
           <form class="reservation__form">
-            <fieldset class="reservation__form-fieldset">
-              <button type="submit" class="reservation__form-button">
-                Book a table
-              </button>
+            <fieldset class="form__fieldset">
+              <label for="surename" class="form__label">Name</label>
+              <input
+                type="text"
+                class="form__input"
+                id="surename"
+                name="surename"
+                placeholder="Name surename"
+              />
             </fieldset>
-            <fieldset class="reservation__form-checkbox">
+            <fieldset class="form__fieldset">
+              <label for="guest" class="form__label">Number of guests</label>
+              <input
+                type="number"
+                min="1"
+                max="8"
+                class="form__input"
+                id="guest"
+                name="guest"
+                placeholder="1-8"
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="date-time" class="form__label">Date & Time</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date-time"
+                name="date-time"
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="email" class="form__label">Your email</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@mail.com"
+              />
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <fieldset class="form__checkbox">
               <input
                 type="checkbox"
-                class="reservation__form-checkbox-input"
+                class="form__checkbox-input"
                 id="i-agree"
                 name="i-agree"
               />
-              <label for="i-agree" class="reservation__form-checkbox-label"
-                >I agree with the terms of use</label
-              >
+              <label for="i-agree" class="form__checkbox-label">
+                I agree with the terms of use
+              </label>
             </fieldset>
           </form>
         </section>
