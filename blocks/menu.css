@@ -36,7 +36,7 @@
 }
 
 .menu__cards {
-  justify-content: space-around;
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   align-self: center;

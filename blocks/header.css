@@ -23,8 +23,6 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .header__title {
@@ -34,7 +32,7 @@
   line-height: 72px;
   max-width: 729px;
   display: block;
-  padding-top: 202px;
+  padding-top: 152px;
   padding-left: 80px;
   margin: 0;
 }
@@ -47,7 +45,7 @@
   line-height: 30px;
   max-width: 683px;
   padding-left: 80px;
-  padding-bottom: 28px;
+  padding-bottom: 12px;
   margin-bottom: 0;
 }
 

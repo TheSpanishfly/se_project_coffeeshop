@@ -1,6 +1,7 @@
 .form__fieldset {
   margin-bottom: 32px;
   border: none;
+  padding: 0;
 }
 
 .form__label {
@@ -14,7 +15,7 @@
 }
 
 .form__input {
-  min-width: 385px;
+  width: 100%;
   min-height: 60px;
   border-radius: 4px;
   box-sizing: border-box;
@@ -37,7 +38,7 @@
   min-height: 60px;
   border-radius: 4px;
   border: none;
-  width: 385px;
+  width: 100%;
   background: #2f80ed;
   color: #ffffff;
 }
@@ -50,24 +51,17 @@
 .form__checkbox {
   display: flex;
   justify-content: center;
-  align-self: center;
   vertical-align: middle;
   gap: 12px;
   margin-bottom: 120px;
   border: none;
 }
 
-.form__input[type="checkbox"] {
-  min-width: 20px;
-  min-height: 20px;
-}
-
-.form__label[for="i-agree"] {
+.form__label--i-agree {
   margin-bottom: 0px;
 }
 
 .form__checkbox {
   min-width: 20px;
   min-height: 20px;
-  margin-right: 12px;
 }
