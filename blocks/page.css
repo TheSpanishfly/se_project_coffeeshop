@@ -6,13 +6,4 @@
   font-size: 16px;
   line-height: 20px;
   font-family: Inter, Arial, sans-serif;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
-}
-
-@media (min-width: 1600px) {
-  .page-wrapper {
-    width: 1600px;
-  }
 }

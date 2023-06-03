@@ -37,19 +37,7 @@
 }
 
 .about__paragraph {
-  border-radius: 2px;
-  min-width: 20px;
-  min-height: 20px;
-  margin-right: 12px;
   margin: 0;
-}
-
-.about__paragraph:first-child {
-  margin-top: 0;
-}
-
-.about__paragraph:last-child {
-  margin-bottom: 0;
 }
 
 .about__circle {
